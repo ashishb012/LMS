@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+/.yarn/
 
 # testing
 /coverage
@@ -29,9 +30,13 @@ yarn-error.log*
 .env
 .env*.local
 
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+*.flock
+*.tmp
