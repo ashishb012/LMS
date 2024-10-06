@@ -12,7 +12,7 @@ const CompleteOAuthAfterCallback = async () => {
     clerkId: user.id,
   })
 
-  if (complete.status == 200) {
+  if (complete.status === 200) {
     redirect(`/group/create`)
   }
 
